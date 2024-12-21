@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-21T16:29:39 IST" name="Suite" finished-at="2024-12-21T16:34:49 IST" duration-ms="309853">
+    <groups>
+    </groups>
+    <test started-at="2024-12-21T16:29:39 IST" name="Test" finished-at="2024-12-21T16:34:49 IST" duration-ms="309853">
+      <class name="tests.TS_002_LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_002_LoginTest@14028087]" started-at="2024-12-21T16:30:21 IST" name="openBrowser" finished-at="2024-12-21T16:30:44 IST" duration-ms="23307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login()[pri:0, instance:tests.TS_002_LoginTest@14028087]" started-at="2024-12-21T16:30:44 IST" name="login" finished-at="2024-12-21T16:30:55 IST" duration-ms="11329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_002_LoginTest@14028087]" started-at="2024-12-21T16:30:55 IST" name="takeScreenshot" finished-at="2024-12-21T16:30:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TS_002_LoginTest.login()[pri:0, instance:tests.TS_002_LoginTest@14028087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TS_002_LoginTest@14028087]" started-at="2024-12-21T16:30:55 IST" name="tearDown" finished-at="2024-12-21T16:30:57 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TS_002_LoginTest -->
+      <class name="tests.TS_007_LogoutTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_007_LogoutTest@1750fbeb]" started-at="2024-12-21T16:34:23 IST" name="openBrowser" finished-at="2024-12-21T16:34:35 IST" duration-ms="11886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logoutfunctionality()[pri:0, instance:tests.TS_007_LogoutTest@1750fbeb]" started-at="2024-12-21T16:34:35 IST" name="logoutfunctionality" finished-at="2024-12-21T16:34:48 IST" duration-ms="13218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfunctionality -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_007_LogoutTest@1750fbeb]" started-at="2024-12-21T16:34:48 IST" name="takeScreenshot" finished-at="2024-12-21T16:34:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutfunctionality status=SUCCESS method=TS_007_LogoutTest.logoutfunctionality()[pri:0, instance:tests.TS_007_LogoutTest@1750fbeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TS_007_LogoutTest@1750fbeb]" started-at="2024-12-21T16:34:48 IST" name="tearDown" finished-at="2024-12-21T16:34:49 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TS_007_LogoutTest -->
+      <class name="tests.TS_006_ContactDeletionTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_006_ContactDeletionTest@7ce69770]" started-at="2024-12-21T16:33:39 IST" name="openBrowser" finished-at="2024-12-21T16:33:48 IST" duration-ms="9042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="deleteContact()[pri:0, instance:tests.TS_006_ContactDeletionTest@7ce69770]" started-at="2024-12-21T16:33:48 IST" name="deleteContact" finished-at="2024-12-21T16:34:23 IST" duration-ms="34114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_006_ContactDeletionTest@7ce69770]" started-at="2024-12-21T16:34:23 IST" name="takeScreenshot" finished-at="2024-12-21T16:34:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteContact status=SUCCESS method=TS_006_ContactDeletionTest.deleteContact()[pri:0, instance:tests.TS_006_ContactDeletionTest@7ce69770] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TS_006_ContactDeletionTest@7ce69770]" started-at="2024-12-21T16:34:23 IST" name="tearDown" finished-at="2024-12-21T16:34:23 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TS_006_ContactDeletionTest -->
+      <class name="tests.TS_005_ContactEditingTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_005_ContactEditingTest@7ce026d3]" started-at="2024-12-21T16:33:01 IST" name="openBrowser" finished-at="2024-12-21T16:33:15 IST" duration-ms="13952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="editContact()[pri:0, instance:tests.TS_005_ContactEditingTest@7ce026d3]" started-at="2024-12-21T16:33:15 IST" name="editContact" finished-at="2024-12-21T16:33:38 IST" duration-ms="22461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editContact -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_005_ContactEditingTest@7ce026d3]" started-at="2024-12-21T16:33:38 IST" name="takeScreenshot" finished-at="2024-12-21T16:33:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editContact status=SUCCESS method=TS_005_ContactEditingTest.editContact()[pri:0, instance:tests.TS_005_ContactEditingTest@7ce026d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TS_005_ContactEditingTest@7ce026d3]" started-at="2024-12-21T16:33:38 IST" name="tearDown" finished-at="2024-12-21T16:33:39 IST" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TS_005_ContactEditingTest -->
+      <class name="tests.TS_004_ContactDisplayTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_004_ContactDisplayTest@1caa0244]" started-at="2024-12-21T16:31:48 IST" name="openBrowser" finished-at="2024-12-21T16:31:59 IST" duration-ms="11086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="seeContactDetails()[pri:0, instance:tests.TS_004_ContactDisplayTest@1caa0244]" started-at="2024-12-21T16:31:59 IST" name="seeContactDetails" finished-at="2024-12-21T16:33:00 IST" duration-ms="60750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeContactDetails -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_004_ContactDisplayTest@1caa0244]" started-at="2024-12-21T16:33:00 IST" name="takeScreenshot" finished-at="2024-12-21T16:33:00 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seeContactDetails status=SUCCESS method=TS_004_ContactDisplayTest.seeContactDetails()[pri:0, instance:tests.TS_004_ContactDisplayTest@1caa0244] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TS_004_ContactDisplayTest@1caa0244]" started-at="2024-12-21T16:33:00 IST" name="tearDown" finished-at="2024-12-21T16:33:01 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TS_004_ContactDisplayTest -->
+      <class name="tests.TS_001_SignUpTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_001_SignUpTest@7ef82753]" started-at="2024-12-21T16:29:41 IST" name="openBrowser" finished-at="2024-12-21T16:30:08 IST" duration-ms="26728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="SignUpToContactList()[pri:0, instance:tests.TS_001_SignUpTest@7ef82753]" started-at="2024-12-21T16:30:08 IST" name="SignUpToContactList" finished-at="2024-12-21T16:30:19 IST" duration-ms="11541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpToContactList -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_001_SignUpTest@7ef82753]" started-at="2024-12-21T16:30:19 IST" name="takeScreenshot" finished-at="2024-12-21T16:30:19 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUpToContactList status=SUCCESS method=TS_001_SignUpTest.SignUpToContactList()[pri:0, instance:tests.TS_001_SignUpTest@7ef82753] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TS_001_SignUpTest@7ef82753]" started-at="2024-12-21T16:30:19 IST" name="tearDown" finished-at="2024-12-21T16:30:21 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TS_001_SignUpTest -->
+      <class name="tests.TS_003_ContactAdditionTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_003_ContactAdditionTest@cecf639]" started-at="2024-12-21T16:30:57 IST" name="openBrowser" finished-at="2024-12-21T16:31:12 IST" duration-ms="15459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addContact()[pri:0, instance:tests.TS_003_ContactAdditionTest@cecf639]" started-at="2024-12-21T16:31:12 IST" name="addContact" finished-at="2024-12-21T16:31:48 IST" duration-ms="35282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContact -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_003_ContactAdditionTest@cecf639]" started-at="2024-12-21T16:31:48 IST" name="takeScreenshot" finished-at="2024-12-21T16:31:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addContact status=SUCCESS method=TS_003_ContactAdditionTest.addContact()[pri:0, instance:tests.TS_003_ContactAdditionTest@cecf639] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TS_003_ContactAdditionTest@cecf639]" started-at="2024-12-21T16:31:48 IST" name="tearDown" finished-at="2024-12-21T16:31:48 IST" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TS_003_ContactAdditionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
